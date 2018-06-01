@@ -1,0 +1,11 @@
+# To disable service uncomment next line, but stop service first
+# exit 0
+
+
+IDLE=$((1*60*60))      # 60 minutes
+GRACE=15               # 15 minutes
+TIMEOUT=15s
+
+IDLE_SUBJECT="Вы были неактивны более $((IDLE / 60)) минут."
+IDLE_MESSAGE="Вы будете <b>принудительно выдворены</b> из системы через <i>$GRACE минут</i>, если не будет зафиксировано никакой активности. Попробуйте <b>поработать</b>, или хотябы <i>пошевелить мышкой</i>."
+
