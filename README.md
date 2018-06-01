@@ -51,3 +51,6 @@ I haven't added a way to exclude users from this yet.
 
 ## Logging
 The script logs to `syslog` using the `XRDP-IDLE-KILLER` tag.
+
+## How it looks
+![Screenshot](screenshot.jpg)
